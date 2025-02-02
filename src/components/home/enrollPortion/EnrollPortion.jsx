@@ -5,7 +5,7 @@ import courseIcon1 from "../../../assets/course/icon_05.png"
 
 const EnrollPortion = () => {
     return (
-        <div className='bg-[#004464] relative md:min-h-[100vh] sm:min-h-[80vh] pb-[200px] sm:mb-[1200px] md:mb-[300px]'>
+        <div className='bg-[#004464] relative md:min-h-[100vh] sm:min-h-[80vh] pb-[200px] sm:mb-[1200px] md:mb-[300px] block'>
             <div className="flex sm:flex-col md:flex-row px-[50px]">
 
                 {/* text and enroll button */}
@@ -22,13 +22,13 @@ const EnrollPortion = () => {
                 </div>
 
                 {/* enroll section image */}
-                <div className='ml-auto md:w-1/2 sm:w-full '>
+                <div className=' md:w-1/2 sm:w-full  '>
                     <img className='w-[470px] h-[462px] mt-[67px] ml-[100px]' src={enrollPortionLogo} alt="" />
                 </div>
             </div>
 
             {/* cards */}
-            <div className='w-full md:ml-[80px] sm:ml-[150px]'><CourseCard></CourseCard></div>
+            <div className='w-full md:ml-[80px] sm:ml-[170px]'><CourseCard></CourseCard></div>
         </div >
     )
 }
